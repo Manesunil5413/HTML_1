@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="grey">
+<h1 align="center"> REGISTRATION PAGE</h1>
+<table align="center">
+
+    <tr>
+        <td>NAME:</td>
+        <td> <input type="text" name="txt" required pattern="[A-Z]" title="use only Uppercase letters" </td>
+
+    </tr>
+    <tr>
+        <td>ADDRESS:</td>
+        <td> <input type="text" name="txt" required pattern="[A-Z]" height="100px" width="200" </td>
+    </tr>
+    <tr>
+        <td> PHN NO:</td>
+        <td> <input type="number" name="number" required minlength="10" </td>
+    </tr>
+    <tr>
+        <td>DOB:</td>
+        <td> <input type="date" name="date"/></td>
+    </tr>
+    <tr>
+        <td>GENDER:</td>
+        <td> <input type="radio" name="rdmale"/>Male
+        <input type="radio" name="rdfemale"/>Female
+        <input type="radio" name="rdo"/>Others</td>
+
+    </tr>
+    <tr>
+
+        <td> BLOOD GROUP:</td>
+        <td> <input type="checkbox" name="chk"/>A+
+        <input type="checkbox" name="chkn"/>B+
+            <input type="checkbox" name="chknb"/>other</td></tr>
+    <tr>
+        <td> CITY:</td>
+        <td> <select id="ddlcity">
+            <option> ---select---</option>
+            <option>PUNE</option>
+            <option>BANGALORE</option>
+            <option>others</option>
+        </select>
+
+            </td>
+
+    </tr>
+    <tr>
+        <td> HIGHEST QUALIFICATION:</td>
+        <td> <select id="ddlcourse">
+            <option>BE/BTECH</option>
+            <option>BSC/BCOM/BA</option>
+            <option>others</option>
+
+        </select></td>
+    </tr>
+
+    <tr>
+        <td>RESUME:</td>
+        <td> <input type="file" name="fle"/></td>
+
+    </tr>
+     <tr>
+        <td> PHOTO:</td>
+        <td colspan="2" align="center"> <input type="image" name="imag"</td>
+
+    </tr>
+<tr>
+    <td colspan="2" align="center"> <input type="submit" name="btn" value="submit" </td>
+
+</tr>
+    <tr>
+        <td colspan="2" align="center"> <input type="reset" name="reset"/></td>
+    </tr>
+</table>
+
+</body>
+</html>
